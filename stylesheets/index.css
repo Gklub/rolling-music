@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 华文行楷, Zapf Chancery, Author, Comic Sans;
+}
+
+#start_font{
+    font-size: 200px;
+    position: relative;
+    left: 350px;
+    top: 250px;
+}
+
+#out_border{
+    border: 0px solid red;
+    width: 1340px;
+    height: 750px;
+    position: absolute;
+    left:5px;
+    top: 5px
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+}
+
+#result{
+    font-size: 50px;
+    position: absolute;
+    left: 1030px;
+    top: 450px;
+    color: red;
+    font-size: 150px;
+}
+
+#pic_result{
+    width: 450px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+
+
+
+
+.try{
+    animation: try 0.2s;
+    -moz-animation: try 0.2s;	/* Firefox */
+    -webkit-animation: try 0.2s;	/* Safari 和 Chrome */
+    -o-animation: try 0.2s;	/* Opera */
+}
+
+@keyframes try
+{
+    0%   {width: 70px;}
+    25%  {width: 46px;}
+    50%  {width: 23px;}
+    100% {width: 0px;}
+}
+
+@-moz-keyframes try /* Firefox */
+{
+    0%   {width: 70px;}
+    25%  {width: 46px;}
+    50%  {width: 23px;}
+    100% {width: 0px;}
+}
+
+@-webkit-keyframes try /* Safari 和 Chrome */
+{
+    0%   {width: 70px;}
+    25%  {width: 46px;}
+    50%  {width: 23px;}
+    100% {width: 0px;}
+}
+
+@-o-keyframes try /* Opera */
+{
+    0%   {width: 70px;}
+    25%  {width: 46px;}
+    50%  {width: 23px;}
+    100% {width: 0px;}
+}

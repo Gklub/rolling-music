@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="javascript/jquery.js"></script>
+    <script src="https://cdn1.lncld.net/static/js/av-mini-0.5.4.js"></script>
+    <script rel="script" src="javascript/move_2.js"></script>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+
+    <body background="imgs/PC-bg.jpg" onload="webbegin()">
+    <div id="out_border">
+        <p id="start_font">waiting…</p>
+        <audio src="music/BGM.wav" id="BGM" loop="loop"></audio>
+        <div class="direction">
+            <img src="imgs/left.png" id="dir_first_first" style="
+            position: absolute;
+            top:-150px;
+            left: 120px;
+            width: 100px;
+        ">
+            <img src="imgs/right.png" id="dir_first_second" style="
+            position: absolute;
+            top:-150px;
+            left: 120px;
+            width: 100px;
+        ">
+
+            <img src="imgs/left.png" id="dir_second_first" style="
+            position: absolute;
+            top: -150px;
+            left: 380px;
+            width: 100px;
+
+        ">
+            <img src="imgs/right.png" id="dir_second_second" style="
+            position: absolute;
+            top: -150px;
+            left: 380px;
+            width: 100px;
+
+        ">
+
+            <img src="imgs/left.png" id="dir_third_first" style="
+            position: absolute;
+            top: -150px;
+            left: 670px;
+            width: 100px;
+
+        ">
+            <img src="imgs/right.png" id="dir_third_second" style="
+            position: absolute;
+            top: -150px;
+            left: 670px;
+            width: 100px;
+
+        ">
+        </div>
+        <p id="result">0</p>
+        <img src=" " id="pic_result" style="display: none;">
+    </div>
+    </body>
+
+</html>
